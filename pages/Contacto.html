@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de contacto</title>
+    <style>
+        header {
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        body {
+            background-color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Formulario de Contacto</h2>
+    </header>
+
+    <main>
+        <div class="formulario">
+        <!--  <form action="./backend/guardarInfo" method="get">-->
+        <form action="">
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido">
+            </div>
+            <br>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre">
+            </div>
+            <br>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="provincia">Provincia:</label>
+                <select name="Provincia" id="Provincia"> required
+                    <optgroup>
+                        <option value="San Luis"> San Luis</option>
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="Cordoba">Cordoba</option>
+                        <option value="Mendoza">Mendoza </option>
+                    </optgroup>
+
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pais">País:</label>
+                <select name="pais" id="pais " required>
+                    <optgroup>
+                        <option value="Argebtina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Paraguay">Paraguay</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+                <br>
+            </div>
+            <div>
+                <input type="checkbox" name="aceptar">acepto las condiciones
+            </div>
+
+            <br>
+            <p>
+                <input type="submit" value="Enviar datos">
+            </p>
+            <!--  <p><button>Enviar</button></p>-->
+
+
+        </form>
+        </div>
+    </main>
+    <footer>
+        <hr>
+    </footer>
+</body>
+
+</html>
