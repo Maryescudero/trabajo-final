@@ -18,7 +18,7 @@
     }
 
     body {
-      background-color: antiquewhite;
+      background-color: rgb(232, 224, 231);
     }
 
     li {
@@ -46,20 +46,14 @@
     <button>Ingresar</button> /
     <button>Registrarse</button>
   </div>
-  </div>
-  <div class="buscador">
-    <input type="text">
-    <label for="Buscador">🔍</label>
-    <button>Buscar</button>
-    <button>Agregar a carrito</button> 🛒
-  </div>
+  <button style="margin-left: 1110px;">Agregar a carrito</button> 🛒
   <br>
   <div class="tienda">
     <a target="_top" href="https://flamingtext.com/"><img
         src="https://blog.flamingtext.com/blog/2023/03/29/flamingtext_com_1680124080_1057183964.gif" border="0"
         alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
   </div>
- 
+
   <nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -72,9 +66,6 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./index.html" style="color: black">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/Promociones.html" style="color: black">Promociones</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -94,10 +85,12 @@
             </li>
 
             <li>
-              <a href="./pages/Como Comprar.html" style="color: black">Como Comprar</a>
+              <a class="nav-link active" aria-current="page" href="../trabajo-final/pages/Como Comprar.html"
+                style="color: black">Como Comprar</a>
             </li>
             <li>
-              <a href="./pages/Contacto.html" style="color: black">Contacto</a>
+              <a class="nav-link active" aria-current="page" href="../trabajo-final/pages/Contacto.html"
+                style="color: black">Contacto</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -110,7 +103,11 @@
   </nav>
   <br>
   <main>
-    <section>
+    <section class="menu">
+      <br>
+      <h1 style="margin-left: 300px">Nueva Temporada Otoño-Invierno </h1>
+      <br>
+
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -145,46 +142,78 @@
     <br>
     <br>
     <br>
-
+    <hr>
     <section>
       <div class="pie">
-        <h5>Nueva Colección</h5>
-        <br>
-        <br>
-        <div class="indumentaria">
-          <div class="ropa">
-            <img src="https://qph.cf2.quoracdn.net/main-qimg-83aaeb719001f0c84050395a877b69ab-lq" alt="Benn">
-          </div>
-          <div class="ropa">
-            <img src="https://yagmourio.vtexassets.com/arquivos/ids/280302/Sweater-Amelie-Bordo-0800273155-01.jpg?v=1766343345" alt="cann">
-          </div>
-          <div class="ropa">
-            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/448/648/products/jeans_mom_mujer_dalia-228fb6ad65de558dde16455594412146-1024-1024.jpg" alt="jeans demin">
+        <h2>Promociones</h2>
 
+        <div class="indumentaria">
+          <div class="ropa1">
+            <h3>Promo 1</h3>
+            <div class="precios">
+              <p class="precio-1">$3000</p>
+            </div>
+            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar</a>
           </div>
+          <img src="https://qph.cf2.quoracdn.net/main-qimg-83aaeb719001f0c84050395a877b69ab-lq" alt="Benn">
+        <div class="ropa2">
+          <h3>Promo 2</h3>
+          <div class="precios">
+            <p class="precio-1">$3000</p>
+          </div>
+          <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar</a>
         </div>
+        <img
+          src="https://yagmourio.vtexassets.com/arquivos/ids/280302/Sweater-Amelie-Bordo-0800273155-01.jpg?v=1766343345"
+          alt="cann">
+      <div class="ropa3">
+        <h3>Promo 3</h3>
+        <div class="precios">
+          <p class="precio-1">$3000</p>
+        </div>
+        <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar</a>
+      </div>
+      <img
+        src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/448/648/products/jeans_mom_mujer_dalia-228fb6ad65de558dde16455594412146-1024-1024.jpg"
+        alt="jeans demin">
+      </div>
+      </div>
     </section>
   </main>
-
-
-
-
+ <footer class="footer">
+    <hr>
+    <br>
+    <div class="link">
+      <h3>Seguinos</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Whatsapp<a href=""></a></li>
+      </ul>
+    </div>
+    <div class="link">
+      <h3>Servicio al Cliente</h3>
+      <ul>
+        <li>Terminos y Condiciones</li>
+        <li>Politicas de cambios y devolución</li>
+        <li>Politicas de Entrega</li>
+        <li>Aviso de Privacidad</li>
+      </ul>
+    </div>
+    <div class="link">
+      <h3>Empresa</h3>
+      <ul>
+          <li>Sobre Nosotros</li>
+          <li>Contactanos</li>
+      </ul>
+  </div>
+  </footer>
+  <script src="../trabajo-final/formato.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
 
-  <footer>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <br>
-
-
-
-
-    </div>
-  </footer>
+ 
 
 </body>
 
