@@ -1,62 +1,72 @@
-function validar_formulario(){
 
-    if(document.getElementById('Nombre').value.length < 2 ){
 
-        todo_correcto = false;
+// funcion validar registro
 
-    if(document.getElementById(' Apellido').value.length < 3 ){
+/* function validar_formulario() {
 
-    todo_correcto = false;
-
-    if(document.getElementById('dni').value.length < 3 ){
+    if (document.getElementById('Nombre').value.length < 2) {
 
         todo_correcto = false;
 
-}
+        if (document.getElementById(' Apellido').value.length < 3) {
 
-var expresion = [a-zA-Z0-9];
+            todo_correcto = false;
 
-var mail = document.form.email.value;
+            if (document.getElementById('dni').value.length < 3) {
 
-    if (!expresion.test(mail)){
+                todo_correcto = false;
 
-        todo_correcto = false;
+            }
 
-}
+            var expresion = [a - zA - Z0 - 9];
 
-var texto = document.getElementById('Mensaje').value;
+            var mail = document.form.email.value;
 
-    if(texto==''){
+            if (!expresion.test(mail)) {
 
-        alert("El textarea no puede estar vacío")
+                todo_correcto = false;
 
-}
+            }
 
-var checkbox = document.getElementById('check');
+            var texto = document.getElementById('Mensaje').value;
 
-    checkbox.addEventListener("change", validaCheckbox, false);
+            if (texto == '') {
 
-function validaCheckbox(){
+                alert("El textarea no puede estar vacío")
 
-    var checked = checkbox.checked;
+            }
 
-    if(checked){
+            var checkbox = document.getElementById('check');
 
-        alert('checkbox esta seleccionado');
+            checkbox.addEventListener("change", validaCheckbox, false);
 
+            function validaCheckbox() {
+
+                var checked = checkbox.checked;
+
+                if (checked) {
+
+                    alert('checkbox esta seleccionado');
+
+                }
+
+                if (!document.getElementById('contactar').checked) {
+
+                    todo_correcto = false;
+
+                    if (!todo_correcto) {
+
+                        alert('Algunos campos no están correctos, revisa los que te quedan');
+
+                    }
+
+
+                    return todo_correcto
+
+                }
+            }
+        }
     }
-
-    if(!document.getElementById('contactar').checked){
-
-        todo_correcto = false;
-
-    if(!todo_correcto){
-
-        alert('Algunos campos no están correctos, revisa los que te quedan');
-
-    }
-
-
-    return todo_correcto;
-
-}}}}}
+} */
+const addToShoppingCartButtons=document.querySelectorAll('addTocart');
+console. log('addToShoppingCartButtons', addToShoppingCartButtons);

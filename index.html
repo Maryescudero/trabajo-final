@@ -9,7 +9,8 @@
   <title>ProyectoFinal</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="../trabajo-final/css/style.css">
+  <link rel="stylesheet" href="../trabajo-final/formato.js">
 
   <style>
     header {
@@ -18,6 +19,9 @@
     }
 
     body {
+      background-image: url(../trabajo-final/assets/images/Vector.jpg);
+      background-size: cover;
+      background-attachment: fixed;
       background-color: rgb(232, 224, 231);
     }
 
@@ -45,9 +49,10 @@
   <div class="ingreso">
     <a href="../trabajo-final/pages/formulario.html" target="_blank" rel="noopener noreferrer">Ingreso</a> /
     <a href="../trabajo-final/pages/formulario.html" target="_blank" rel="noopener noreferrer">Registrarse</a>
-    </div>
   </div>
-  <button style="margin-left: 1110px;">Agregar a carrito</button> 🛒
+<br>
+  
+
   <br>
   <div class="tienda">
     <a target="_top" href="https://flamingtext.com/"><img
@@ -95,15 +100,16 @@
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <input class="form-control me-2" type="search" placeholder ="Search" aria-label="Search" >
+            <button class ="btn btn-outline-success" type="submit"><a href="../trabajo-final/produc.html">Buscar</a></button>
           </form>
         </div>
       </div>
     </nav>
   </nav>
   <br>
-  <main>
+  <main id="contenedor-productos">
+    
     <section class="menu">
       <br>
       <h1 style="margin-left: 300px">Nueva Temporada Otoño-Invierno </h1>
@@ -158,7 +164,8 @@
             </div>
             <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar</a>
           </div>
-          <img src="https://qph.cf2.quoracdn.net/main-qimg-83aaeb719001f0c84050395a877b69ab-lq" width="400" height="400" alt="Benn">
+          <img src="https://qph.cf2.quoracdn.net/main-qimg-83aaeb719001f0c84050395a877b69ab-lq" width="400" height="400"
+            alt="Benn">
           <div class="ropa2">
             <h3>Promo 2</h3>
             <div class="precios">
@@ -167,8 +174,8 @@
             <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar</a>
           </div>
           <img
-            src="https://yagmourio.vtexassets.com/arquivos/ids/280302/Sweater-Amelie-Bordo-0800273155-01.jpg?v=1766343345" width="400" height="400"
-            alt="cann">
+            src="https://yagmourio.vtexassets.com/arquivos/ids/280302/Sweater-Amelie-Bordo-0800273155-01.jpg?v=1766343345"
+            width="400" height="400" alt="cann">
           <div class="ropa3">
             <h3>Promo 3</h3>
             <div class="precios">
@@ -177,8 +184,8 @@
             <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar</a>
           </div>
           <img
-            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/448/648/products/jeans_mom_mujer_dalia-228fb6ad65de558dde16455594412146-1024-1024.jpg" width="300" height="400"
-            alt="jeans demin">
+            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/448/648/products/jeans_mom_mujer_dalia-228fb6ad65de558dde16455594412146-1024-1024.jpg"
+            width="300" height="400" alt="jeans demin">
         </div>
       </div>
     </section>
@@ -190,25 +197,19 @@
     <br>
     <br>
     <div style="margin-left: 110px;" id="columnas">
-      <li>Servicio al Cliente</li>
-      <li>Termino y Condiciones</li>
-      <li>Politicas de Privacidad</li>
+      <li><a href="../trabajo-final/pages/servicio-cliente.html">Servicio al Cliente</a></li>
+      <li><a href="../trabajo-final/pages/Contacto.html">Contactenos</a></li>
+      <li><a href="../trabajo-final/pages/nosotros.html"> Sobre Nosotros</a></li>
       <li><a href="../trabajo-final/pages/Politicas.html">Politicas de cambio y devolución</a></li>
       <li>Seguinos</li>
       <li>Instragram</li>
       <li>Facebook</li>
-      <li>Whatsapp</li>
-      <li>Empresa</li>
-      <li>Sobre Nosotros</li>
-      <li><a href="../trabajo-final/pages/Contacto.html">Contactenos</a></li>
-
     </div>
   </footer>
   <br>
   <br>
   <br>
   <br>
-
   <script src="../trabajo-final/formato.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
