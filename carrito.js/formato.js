@@ -2,7 +2,7 @@
 
 // funcion validar registro
 
-/* function validar_formulario() {
+ function validar_formulario() {
 
     if (document.getElementById('Nombre').value.length < 2) {
 
@@ -67,6 +67,13 @@
             }
         }
     }
-} */
-const addToShoppingCartButtons=document.querySelectorAll('addTocart');
-console. log('addToShoppingCartButtons', addToShoppingCartButtons);
+} 
+
+
+
+
+
+
+
+
+

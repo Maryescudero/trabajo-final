@@ -37,9 +37,10 @@
     position: relative;
 }
 .submenu #carrito{
-    display: none;
+    display: none
 
 }
+
 .submenu:hover #carrito{
     display:block;
     position:absolute;
@@ -52,19 +53,12 @@
     min-width: 80px;
 
 }
+
 .table {
     width: 100%;
 }
 .th , td{
     color: #91b0da;
-}
-.borrar{
-    color: rgb(72, 123, 123);
-    border-radius: 50%;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: rgb(97, 118, 136);
-    font-weight: 800;
 }
  .barra {
      text-align: center;
