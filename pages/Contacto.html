@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,92 +52,31 @@
         </ul>
         </div>
     </nav>
-
-<br>
-<br>
-<body>
-    <header>
-        <h2>Formulario de Contacto</h2>
-    </header>
-<br>
-<br>
     <main>
-        <div class="formulario">
-        <!--  <form action="./backend/guardarInfo" method="get">-->
-        <form action="">
-            <div>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido">
-            </div>
-            <br>
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre">
-            </div>
-            <br>
-            <div>
-                <label for="email">email:</label>
-                <input type="email" name="email" id="email" required>
-            </div>
 
-            <br>
 
-            <div>
-                <label for="provincia">Provincia:</label>
-                <select name="Provincia" id="Provincia"> required
-                    <optgroup>
-                        <option value="San Luis"> San Luis</option>
-                        <option value="Buenos Aires">Buenos Aires</option>
-                        <option value="Cordoba">Cordoba</option>
-                        <option value="Mendoza">Mendoza </option>
-                    </optgroup>
-
-                </select>
+        <div class="container-form">
+            <div class="info-form">
+                <h2>Contáctanos</h2>
+                <p>Gracias por Contactarse con Indumentaria Sung Yub,a la brevedad un representante estará contactandose
+                    para una pronta solución.-</p>
+                <a href="#"><i class="fa fa-phone"></i> 266-4834980</a>
+                <a href="#"><i class="fa fa-envelope"></i> SungYub23@gmail.com</a>
+                <a href="#"><i class="fa fa-map-marked"></i> San Luis, Argentina</a>
             </div>
+            <form action="#" autocomplete="off">
+                <input type="text" name="nombre" placeholder="Tu Nombre" class="campo" required>
+                <input type="emal" name="email" placeholder="Tu Email" class="campo"required >
+                <textarea name="mensaje" placeholder="Tu Mensaje..." required></textarea>
+                <input type="submit" name="enviar" onclick="alert('¡Su mensaje ha sido enviado con éxito!')" value="Enviar mensaje" class="btn-enviar"><!-- me envia una alerta -->
 
-            <br>
-
-            <div>
-                <label for="pais">País:</label>
-                <select name="pais" id="pais " required>
-                    <optgroup>
-                        <option value="Argentina">Argentina</option>
-                        <option value="Chile">Chile</option>
-                        <option value="Brazil">Brazil</option>
-                        <option value="Paraguay">Paraguay</option>
-                    </optgroup>
-                </select>
-            </div>
-            <br>
-            <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                    style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Comments</label>
-                <br>
-            </div>
-            <div>
-                <input type="checkbox" name="aceptar">acepto las condiciones
-            </div>
-
-            <br>
-           <ul>
-            <li>
-                <label for="contactar"></label>
-                <button style="background-color: rgb(0, 225, 255) ;" type="submit">CONTACTAR</button>
-          </li>
-          <li>
-                <label for="reset"></label>
-                <button style="background-color: rgb(255, 0, 76) ;" type="submit">Reiniciar</button>
-          </li>
-           </ul>
-
-        </form>
-        </div>
+            </form>
+          
     </main>
     <footer>
         <hr>
     </footer>
-    <script src="../carrito.js/formato.js"></script>
+    <script src="../carrito.js/formato.js"></Script>
 </body>
 
 </html>

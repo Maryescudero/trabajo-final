@@ -2,7 +2,7 @@
 
 // funcion validar registro
 
- function validar_formulario() {
+function validar_formulario() {
 
     if (document.getElementById('Nombre').value.length < 2) {
 
@@ -57,6 +57,7 @@
                     if (!todo_correcto) {
 
                         alert('Algunos campos no están correctos, revisa los que te quedan');
+                       
 
                     }
 
@@ -64,10 +65,14 @@
                     return todo_correcto
 
                 }
+                
             }
         }
     }
-} 
+}
+
+
+
 
 
 

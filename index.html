@@ -18,7 +18,7 @@
     }
 
     body {
-       background-image: url(./assets/images/Vector.jpg); 
+      background-image: url(./assets/images/Vector.jpg);
       background-size: cover;
       background-attachment: fixed;
       background-color: rgb(232, 224, 231);
@@ -42,44 +42,17 @@
 
   <header>
     <h5>Envio gratis a todo el país compras superiores a $20.000</h5>
-  </header>  
+  </header>
   <div class="ingreso">
-    <a href="./pages/formulario.html" target="_blank" rel="noopener noreferrer">Ingreso</a> /
+    <a href="./pages/ingreso-pag.html" target="_blank" rel="noopener noreferrer">Ingreso</a> /
     <a href="./pages/formulario.html" target="_blank" rel="noopener noreferrer">Registrarse</a>
   </div>
-<br>
-<div>
-  <ul>
-    <li class="submenu">
-      <img src="./assets/images/cart.png" width="39"; height="38" id="img-carrito" alt="carrito" style="margin-left: 1100px">
-      <div id="carrito">
-        <table id="lista-carrito" class="table">
-          <thead>
-            <tr>
-              <th>Imagen</th>
-              <th>precio</th>
-              <th>total</th>
-              
-              <th></th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-        <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
-        <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar Compra</a>
-      </div>
-    </li>
-  </ul>
-</div> 
-  
-
   <br>
-  <div class="tienda">
+  <div style="text-align: center;">
     <a target="_top" href="https://flamingtext.com/"><img
         src="https://blog.flamingtext.com/blog/2023/03/29/flamingtext_com_1680124080_1057183964.gif" border="0"
         alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
   </div>
-
   <nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -99,10 +72,10 @@
                 Productos
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../trabajo-final/produc.html">Cardigans</a></li>
-                <li><a class="dropdown-item" href="../trabajo-final/produc.html">Conjuntos</a></li>
-                <li><a class="dropdown-item" href="../trabajo-final/produc.html">Jeans</a></li>
-                <li><a class="dropdown-item" href="../trabajo-final/produc.html">Camisas</a></li>
+                <li><a class="dropdown-item" href="./produc.html">Cardigans</a></li>
+                <li><a class="dropdown-item" href="./produc.html">Conjuntos</a></li>
+                <li><a class="dropdown-item" href="./produc.html">Jeans</a></li>
+                <li><a class="dropdown-item" href="./produc.html">Camisas</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
@@ -111,28 +84,48 @@
             </li>
 
             <li>
-              <a class="nav-link active" aria-current="page" href="../trabajo-final/pages/Como Comprar.html"
-                style="color: black">Como Comprar</a>
+              <a class="nav-link active" aria-current="page" href="./pages/Como Comprar.html" style="color: black">Como
+                Comprar</a>
             </li>
             <li>
-              <a class="nav-link active" aria-current="page" href="../trabajo-final/pages/Contacto.html"
+              <a class="nav-link active" aria-current="page" href="./pages/Contacto.html"
                 style="color: black">Contacto</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder ="Search" aria-label="Search" >
-            <button class ="btn btn-outline-success" type="submit"><a href="../trabajo-final/produc.html">Buscar</a></button>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><a href="./produc.html">Buscar</a></button>
           </form>
         </div>
       </div>
     </nav>
   </nav>
-  <br>
- 
-  <div class = "container" id="lista-productos">
+  <main>
+    <div>
+      <ul>
+        <li class="submenu">
+          <img src="./assets/images/carrito2.png" id="img-carrito" alt="" >
+          <div id ="carrito">
+            <table id="lista-carrito">
+              <thead>
+                <tr>
+                  <th>imagen</th>
+                  <th>nombre</th>
+                  <th>precio</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <a href="#" id="vaciar-carrito" class="btn-3" style="margin-left: 850px;">Vaciar Carrito</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  <div class="container" id="lista-productos">
     <section class="menu">
       <br>
-      <h1 style="margin-left: 300px">Nueva Temporada Otoño-Invierno </h1>
+      <h1 style="margin-left:250px">Nueva Temporada Otoño-Invierno </h1>
       <br>
 
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -172,49 +165,48 @@
     <hr>
     <section>
       <div class="pie">
-        <h2>Promociones</h2>
+        <h1>Promociones</h1>
         <br>
         <br>
         <br>
-  
+
         <div class="indumentaria">
           <div class="ropa1">
             <h3>Promo 1</h3>
             <div class="precios">
               <p class="precio-1">$3000</p>
             </div>
-            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar</a>
+            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al Carrito</a>
           </div>
           <img src="https://qph.cf2.quoracdn.net/main-qimg-83aaeb719001f0c84050395a877b69ab-lq" width="400" height="400"
-            alt="Benn">
+            alt="">
           <div class="ropa2">
             <h3>Promo 2</h3>
             <div class="precios">
               <p class="precio-1">$3000</p>
             </div>
-            <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar</a>
+            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al Carrito</a>
           </div>
           <img
             src="https://yagmourio.vtexassets.com/arquivos/ids/280302/Sweater-Amelie-Bordo-0800273155-01.jpg?v=1766343345"
-            width="400" height="400" alt="cann">
+            width="400" height="400" alt="">
           <div class="ropa3">
             <h3>Promo 3</h3>
             <div class="precios">
               <p class="precio-1">$3000</p>
             </div>
-            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar</a>
+            <a href="#" class="agregar-carrito btn-3" data-id="13">Agregar al Carrito</a>
           </div>
-          <img
-            src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/448/648/products/jeans_mom_mujer_dalia-228fb6ad65de558dde16455594412146-1024-1024.jpg"
-            width="300" height="400" alt="jeans demin">
+          <img src="./assets/images/jens23.webp" width="300" height="400" alt="">
         </div>
       </div>
-    </div>
-    </section>
+  </div>
+  </section>
   </main>
   <br>
   <hr>
   <br>
+</main>
   <footer class="footer">
     <br>
     <br>
@@ -233,12 +225,10 @@
   <br>
   <br>
   <script src="./carrito.js/formato.js"></script>
-<script src="./carrito.js/llenar-carro.js"></script>
-<script src="./carrito.js/pedido.js"></script>
+  <script src="./carrito.js/pedido.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
-
 
 </body>
 
