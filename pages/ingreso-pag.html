@@ -33,6 +33,7 @@
 
     <header>
         <h5 style="text-align: center;">Envio gratis a todo el país compras superiores a $20.000</h5>
+        <audio src="./assets/audio/mi-musica.mp3" autoplay="autoplay" loop="loop"></audio>
     </header>
     <main>
         <br>
@@ -44,29 +45,29 @@
         <br>
         <br>
 
-        <h1 style="margin-left: 500px;">Ingrese sus datos</h1>
+        <h1 >Ingrese sus datos</h1>
         <br>
         <br>
 
-            <form id="registrarse-form" method="post">
-                <input style="font-size: large;" id="signup-email" type="email" placeholder="Correo electronico " required />
+            <form id="registrarse-form" method="post" >
+                <input style="font-size: large;" id="email" type="email" pattern=".+@globex\.com" size="30" placeholder="Correo electronico " required />
                 <input style="font-size: large;" id="signup-password" type="password" placeholder="Contraseña" required />
 
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Acepto las condiciones</label required>
+            <div class="mb-3 form-check" >
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                <label class="form-check-label" for="exampleCheck1">Acepto las condiciones</label>
             </div>
-            <a class="btn btn-primary outline-danger" style=" border: 1px solid #202321" href="../index.html" role="button">Ingresar</a>
+            <a class="btn btn-primary outline-danger" style=" border: 1px solid #202321" href="../index.html" role="button" >Ingresar</a>
             
         </form>
-
+       
     </main>
 <br>
 <footer>
     <hr>
     <br>
 </footer>
-    <script src="../carrito.js/formato.js"></script>
+    <script src="../formato.js"></script>
 </body>
 
 </html>
